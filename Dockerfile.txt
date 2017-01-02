@@ -1,5 +1,5 @@
 
-FROM microsoft/microsoft/mssql-server-windows-express
+FROM microsoft/mssql-server-windows-express
 RUN Net user administrator P@ssword 
 COPY Fsc-destiny c:\Fsc-destiny
 #RUN c:\Fsc-destiny\fsc\bin\rundestiny.bat
